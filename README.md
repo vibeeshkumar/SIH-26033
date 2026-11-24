@@ -34,15 +34,33 @@ FarmConnect is a proposed platform for listing agricultural produce, discovering
 
 ## Architecture and diagrams
 
-The diagrams below are maintained as Mermaid source in the repository. GitHub renders Mermaid diagrams in Markdown.
+Visual diagrams are embedded below and also available as separate SVG image files. Click an image to open the full-size version.
 
-- [System architecture](docs/diagrams/architecture.md)
-- [Use-case diagram and data-flow diagram](docs/diagrams/use-case-and-dfd.md)
-- [Activity and order workflow diagrams](docs/diagrams/workflows.md)
+### System architecture
+
+![FarmConnect system architecture](docs/diagrams/architecture.svg)
+
+### Use-case overview
+
+![FarmConnect use case](docs/diagrams/use-case.svg)
+
+### Order workflow
+
+![FarmConnect order workflow](docs/diagrams/workflow.svg)
+
+Source diagrams: [Architecture](docs/diagrams/architecture.md) · [Use cases and DFD](docs/diagrams/use-case-and-dfd.md) · [Workflow details](docs/diagrams/workflows.md)
 
 ## Charts and market analysis
 
-- [Market analysis chart concepts and sample-data guidance](docs/charts/market-analysis.md)
+### Weekly demand index
+
+![Illustrative weekly demand index](docs/charts/weekly-demand-index.svg)
+
+### Price comparison
+
+![Illustrative price comparison](docs/charts/price-comparison.svg)
+
+[Market analysis notes and sample-data guidance](docs/charts/market-analysis.md)
 
 **Data note:** Charts and examples are illustrative unless a real dataset and source are explicitly identified. Forecasts must not be presented as actual market outcomes. A production version should record source, market, commodity, unit and observation date for each price.
 
