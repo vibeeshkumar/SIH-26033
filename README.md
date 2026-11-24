@@ -1,63 +1,98 @@
-# Smart India Hackathon Workshop
-# Date:24-11-2026
-## Reference Number:26004488
-## Name:VibeeshKumar
+# FarmConnect — Smart Agricultural Marketplace
 
-## Problem Title
-SIH 26033: Multiple intermediaries reduce farmers earnings and increase consumer prices.
+**Smart India Hackathon | Problem ID: SIH 26033**  
+**Theme:** Agriculture, FoodTech & Rural Development  
+**Student:** VibeeshKumar  
+**Reference number:** 26004488
 
-## Problem Creater's Organization
-Ministry of Consumer Affairs, Food & Public Distribution
+## Problem statement
 
-## Theme
-Agriculture, FoodTech & Rural Development
+Multiple intermediaries in agricultural supply chains can reduce farmers' earnings and increase prices paid by consumers. The proposed solution is a digital marketplace that connects farmers and Farmer Producer Organisations (FPOs) directly with consumers and bulk buyers, while supporting logistics and data-informed demand planning.
 
-## Problem Description
-Expected Solution: Create a digital marketplace that:
+## Proposed solution
 
-• Connects farmers/FPOs directly with consumers and bulk buyers.
-• Provides logistics support.
-• Uses AI for demand forecasting and route optimization.
+FarmConnect is a proposed platform for listing agricultural produce, discovering suppliers, managing orders and coordinating delivery.
 
-Benefits:
+### Core modules
 
-• Better prices for farmers.
-• Lower prices for consumers.
-• Reduced supply chain inefficiencies.
+1. **Farmer registration:** Farmers create accounts and manage their profiles.
+2. **Product listing:** Sellers publish produce details, available quantity, price, location and availability.
+3. **Buyer connectivity:** Consumers, retailers and wholesalers search and connect with farmers.
+4. **Market analysis:** Market information and demand summaries help sellers make informed decisions.
+5. **Order management:** Buyers submit orders and sellers update fulfilment status.
+6. **Logistics support:** Mapping services can assist with location display and delivery planning.
 
-## Proposed Solution
+## Technical approach
 
-We propose FarmConnect, a smart agricultural platform designed to improve the way farm products are marketed, purchased and delivered.
+| Layer | Proposed technology | Purpose |
+|---|---|---|
+| Frontend | HTML, CSS, Bootstrap, JavaScript | Responsive user interface |
+| Backend | Python, Django | Application logic and APIs |
+| Database | SQLite (prototype) | Users, listings and orders |
+| Analytics | Python data libraries / ML | Market analysis and demand forecasting |
+| Mapping | Mapping service/API | Location and route support |
 
-1. Farmer Registration: Enables farmers to create accounts and manage their agricultural products.
-2. Product Management: Allows farmers to upload product details, available quantities and expected prices.
-3. Buyer Connectivity: Helps consumers, retailers and wholesalers find suitable products directly from farmers.
-4. Smart Market Analysis: Provides market trends and demand information to support better selling decisions.
-5. Delivery Management: Helps coordinate product transportation and track order status.
+## Architecture and diagrams
 
-FarmConnect aims to simplify agricultural trading, improve market accessibility and create better opportunities for farmers.
+The diagrams below are maintained as Mermaid source in the repository. GitHub renders Mermaid diagrams in Markdown.
 
-## Technical Approach
+- [System architecture](docs/diagrams/architecture.md)
+- [Use-case diagram and data-flow diagram](docs/diagrams/use-case-and-dfd.md)
+- [Activity and order workflow diagrams](docs/diagrams/workflows.md)
 
-1. Frontend: HTML, CSS and JavaScript for designing the website.
-2. Backend: Python and Django for handling application logic.
-3. Database: SQLite for storing user and product information.
-4. AI/ML: Python libraries for analyzing agricultural demand and market trends.
-5. Mapping: Mapping services for locating farmers and planning deliveries.
+## Charts and market analysis
 
-## Feasibility and Viability
-### Implementation Methodology
+- [Market analysis chart concepts and sample-data guidance](docs/charts/market-analysis.md)
 
-1. Design a simple and responsive website.
-2. Develop separate registration and login pages for farmers and buyers.
-3. Create modules for adding, viewing and managing agricultural products.
-4. Develop a system for buyers to search and purchase products.
-5. Integrate market analysis and demand prediction features.
-6. Test the platform to ensure smooth operation.
+**Data note:** Charts and examples are illustrative unless a real dataset and source are explicitly identified. Forecasts must not be presented as actual market outcomes. A production version should record source, market, commodity, unit and observation date for each price.
 
-## Impact and Benefits
+## Project reports
 
+- [Software Requirements Specification (SRS)](docs/reports/SRS.md)
+- [Feasibility study and risk mitigation](docs/reports/feasibility-and-risk.md)
+- [Testing plan](docs/reports/testing-plan.md)
 
-## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+A printable [FarmConnect Project Report (PDF)](docs/reports/FarmConnect_Project_Report.pdf) is intended to accompany these documents when the PDF is added to the repository. Until then, use the Markdown reports above.
+
+## Feasibility, risks and mitigation
+
+| Risk | Proposed mitigation |
+|---|---|
+| Limited digital familiarity | Simple mobile-friendly UI, regional-language support and onboarding |
+| Poor rural connectivity | Lightweight pages and reduced network requests |
+| Outdated stock or prices | Timestamp listings and reconfirm availability before order acceptance |
+| Transport constraints | Start with local delivery partners and transparent delivery estimates |
+| Forecast uncertainty | Show data sources, date ranges and limitations |
+
+## Expected impact
+
+- **Social:** Better digital participation and direct connections for rural sellers.
+- **Economic:** Improved price discovery and fewer avoidable transaction steps.
+- **Environmental:** Better supply-demand matching may help reduce spoilage; this must be measured during pilots.
+
+## Suggested evaluation metrics
+
+Track active farmer sellers, listing freshness, buyer-to-order conversion, order fulfilment rate, price transparency and reported unsold/spoiled quantities. Do not claim impact figures until they are measured in a pilot.
+
+## Implementation methodology
+
+1. Design a responsive, accessible website.
+2. Build farmer and buyer registration/login.
+3. Implement product listing and inventory management.
+4. Add buyer search, product details and order workflows.
+5. Integrate market information and analytics.
+6. Test permissions, workflows, responsiveness and data validation.
+7. Pilot with a small group of farmers and buyers; use feedback to improve.
+
+## Research and references
+
+1. [e-NAM](https://www.enam.gov.in/)
+2. [AGMARKNET](https://agmarknet.gov.in/)
+3. [Digital India](https://www.digitalindia.gov.in/)
+4. [Department of Agriculture & Farmers Welfare](https://agriwelfare.gov.in/)
+5. [Food and Agriculture Organization (FAO)](https://www.fao.org/)
+
+External datasets and services should be checked for current availability, licensing and attribution before integration.
+
+---
+*Project status: proposal and documentation. Features described as planned should not be interpreted as already implemented or tested.*
