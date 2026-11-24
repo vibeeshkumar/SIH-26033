@@ -52,7 +52,7 @@ The diagrams below are maintained as Mermaid source in the repository. GitHub re
 - [Feasibility study and risk mitigation](docs/reports/feasibility-and-risk.md)
 - [Testing plan](docs/reports/testing-plan.md)
 
-A printable [FarmConnect Project Report (PDF)](docs/reports/FarmConnect_Project_Report.pdf) is intended to accompany these documents when the PDF is added to the repository. Until then, use the Markdown reports above.
+A printable project report is also provided separately in this conversation; the Markdown reports above are the version maintained in this repository.
 
 ## Feasibility, risks and mitigation
 
