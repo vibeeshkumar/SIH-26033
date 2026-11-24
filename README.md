@@ -40,6 +40,23 @@ Visual diagrams are embedded below and also available as separate SVG image file
 
 ![FarmConnect system architecture](docs/diagrams/architecture.svg)
 
+```mermaid
+flowchart TD
+  F[Farmer / FPO] --> UI[Web UI - HTML, CSS, Bootstrap, JavaScript]
+  B[Buyer / Retailer / Wholesaler] --> UI
+  UI --> DJ[Django Application]
+  DJ --> AUTH[Registration and Login]
+  DJ --> PROD[Product and Stock Management]
+  DJ --> ORD[Order Management]
+  DJ --> ANA[Market Analysis and Demand Forecasting]
+  DJ --> MAP[Mapping and Delivery Planning]
+  AUTH --> DB[(SQLite Database)]
+  PROD --> DB
+  ORD --> DB
+  ANA --> DATA[Market Price and Demand Data]
+  MAP --> API[Mapping Service API]
+```
+
 ### Use-case overview
 
 ![FarmConnect use case](docs/diagrams/use-case.svg)
@@ -47,6 +64,23 @@ Visual diagrams are embedded below and also available as separate SVG image file
 ### Order workflow
 
 ![FarmConnect order workflow](docs/diagrams/workflow.svg)
+
+```mermaid
+flowchart TD
+  A([Start]) --> B[Farmer logs in]
+  B --> C[Add produce details]
+  C --> D[Publish product listing]
+  D --> E[Buyer searches products]
+  E --> F[Buyer places order]
+  F --> G[Farmer reviews order]
+  G --> H{Accept order?}
+  H -- No --> I[Notify buyer - order declined]
+  H -- Yes --> J[Confirm quantity and delivery]
+  J --> K[Pack and dispatch]
+  K --> L[Update delivery status]
+  L --> M[Buyer receives order]
+  M --> N([Order completed])
+```
 
 Source diagrams: [Architecture](docs/diagrams/architecture.md) · [Use cases and DFD](docs/diagrams/use-case-and-dfd.md) · [Workflow details](docs/diagrams/workflows.md)
 
