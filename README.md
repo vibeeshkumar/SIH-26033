@@ -2,7 +2,7 @@
 
 **Smart India Hackathon | Problem ID: SIH 26033**  
 **Theme:** Agriculture, FoodTech & Rural Development  
-**Student:** VibeeshKumar  
+**Student:** VibeeshKumar S
 **Reference number:** 26004488
 
 ## Problem statement
@@ -38,7 +38,7 @@ Visual diagrams are embedded below and also available as separate SVG image file
 
 ### System architecture
 
-![FarmConnect system architecture](docs/diagrams/architecture.svg)
+
 
 ```mermaid
 flowchart TD
@@ -63,7 +63,7 @@ flowchart TD
 
 ### Order workflow
 
-![FarmConnect order workflow](docs/diagrams/workflow.svg)
+
 
 ```mermaid
 flowchart TD
@@ -143,8 +143,3 @@ Track active farmer sellers, listing freshness, buyer-to-order conversion, order
 3. [Digital India](https://www.digitalindia.gov.in/)
 4. [Department of Agriculture & Farmers Welfare](https://agriwelfare.gov.in/)
 5. [Food and Agriculture Organization (FAO)](https://www.fao.org/)
-
-External datasets and services should be checked for current availability, licensing and attribution before integration.
-
----
-*Project status: proposal and documentation. Features described as planned should not be interpreted as already implemented or tested.*
