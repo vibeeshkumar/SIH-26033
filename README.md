@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date:24-11-2026
+## Reference Number:26004488
+## Name:VibeeshKumar
 
 ## Problem Title
 SIH 26033: Multiple intermediaries reduce farmers earnings and increase consumer prices.
@@ -26,26 +26,37 @@ Benefits:
 • Reduced supply chain inefficiencies.
 
 ## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+
+We propose FarmConnect, a smart agricultural platform designed to improve the way farm products are marketed, purchased and delivered.
+
+1. Farmer Registration: Enables farmers to create accounts and manage their agricultural products.
+2. Product Management: Allows farmers to upload product details, available quantities and expected prices.
+3. Buyer Connectivity: Helps consumers, retailers and wholesalers find suitable products directly from farmers.
+4. Smart Market Analysis: Provides market trends and demand information to support better selling decisions.
+5. Delivery Management: Helps coordinate product transportation and track order status.
+
+FarmConnect aims to simplify agricultural trading, improve market accessibility and create better opportunities for farmers.
 
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+
+1. Frontend: HTML, CSS and JavaScript for designing the website.
+2. Backend: Python and Django for handling application logic.
+3. Database: SQLite for storing user and product information.
+4. AI/ML: Python libraries for analyzing agricultural demand and market trends.
+5. Mapping: Mapping services for locating farmers and planning deliveries.
 
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+### Implementation Methodology
+
+1. Design a simple and responsive website.
+2. Develop separate registration and login pages for farmers and buyers.
+3. Create modules for adding, viewing and managing agricultural products.
+4. Develop a system for buyers to search and purchase products.
+5. Integrate market analysis and demand prediction features.
+6. Test the platform to ensure smooth operation.
 
 ## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+
 
 ## Research and References
 Remove These Lines
